@@ -29,6 +29,7 @@ function App() {
       plugins: [unpkgPathPlugin()],
       define: {
         // "process.env.NODE_ENV": '"production"',
+
         global: "window",
       },
     });
